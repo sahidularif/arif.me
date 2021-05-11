@@ -86,7 +86,7 @@ const Header = () => {
               <a
                 target="__blank"
                 rel="noopener noreferrer"
-                href="https://with.zonayed.me"
+                href="https://sahidularif1.medium.com/"
               >
                 Blog
               </a>
@@ -96,7 +96,7 @@ const Header = () => {
                 className="btn-download"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/zonayedpca/zonayed.me/raw/master/src/data/file/MyResume.pdf"
+                href="https://github.com/sahidularif/arif.me/blob/main/src/data/file/MyResume.pdf"
               >
                 Resume
               </a>

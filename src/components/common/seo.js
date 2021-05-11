@@ -51,14 +51,14 @@ function SEO({ description, lang, meta, title }) {
           property: `og:type`,
           content: `website`,
         },
-        {
-          property: "og:image",
-          content: require("../../assets/image/thumbnail.png"),
-        },
-        {
-          property: "og:image:secure_url",
-          content: require("../../assets/image/thumbnail.png"),
-        },
+        // {
+        //   property: "og:image",
+        //   content: require("../../assets/image/thumbnail.png"),
+        // },
+        // {
+        //   property: "og:image:secure_url",
+        //   content: require("../../assets/image/thumbnail.png"),
+        // },
         {
           property: "og:image:width",
           content: "1200",
