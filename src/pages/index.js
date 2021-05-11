@@ -13,11 +13,11 @@ import { Layout, SEO } from "../components/common"
 const IndexPage = () => (
   <>
     <Layout>
-      <SEO title="Zonayed Ahmed" />
+      <SEO title="Sahidul Arif" />
       <Intro />
       <About />
       <Skill />
-      <LoveToDo />
+      {/* <LoveToDo /> */}
       <Portfolio />
       <Contact />
     </Layout>

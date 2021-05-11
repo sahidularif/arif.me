@@ -20,8 +20,8 @@ export const Title = ({ title, social, side, height }) => {
           <li>
             <a
               target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/zonayedpca"
+              rel="any"
+              href="https://github.com/sahidularif/"
             >
               <FaGithub />
             </a>
@@ -29,17 +29,8 @@ export const Title = ({ title, social, side, height }) => {
           <li>
             <a
               target="_blank"
-              rel="noopener noreferrer"
-              href="https://codepen.io/zonayedpca"
-            >
-              <FaCodepen />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/zonayedpca"
+              rel="any"
+              href="https://www.linkedin.com/in/sahidul-arif-761196162/"
             >
               <FaLinkedinIn />
             </a>
@@ -47,19 +38,10 @@ export const Title = ({ title, social, side, height }) => {
           <li>
             <a
               target="_blank"
-              rel="noopener noreferrer"
-              href="https://medium.com/@zonayedpca"
+              rel="any"
+              href="https://medium.com/@sahidularif1"
             >
               <FaMediumM />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://twitter.com/zonayedpca"
-            >
-              <FaTwitter />
             </a>
           </li>
         </ul>

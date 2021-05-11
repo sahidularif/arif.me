@@ -1,11 +1,11 @@
 export const languages = [
   {
-    id: "Bengali",
-    text: "ধন্যবাদ",
+    id: "1",
+    text: "About",
     progress: 99,
   },
   {
-    id: "English",
+    id: "2",
     text: "Thanks",
     progress: 75,
   },

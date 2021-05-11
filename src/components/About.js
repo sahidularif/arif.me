@@ -15,9 +15,9 @@ const About = () => {
           <div className="about-details">
             <p>
               Hello! I'm Sahidul Arif, Front-End Web Developer. I
-              develop web applications. My core skill is based on JavaScript and I love to
-              do most of the things using JavaScript. I love to make the web
-              more open to the world.
+              develop web applications. My core skill is based on JavaScript. I studied Computer Science & Technology, and during my studies I got in contact with the basic concepts of programming. Since then I've always wanted to become a developer and I love to do most of the things using JavaScript.
+              I love to make the web more open to the world.
+              
             </p>
             <div className="about-action">
               <Button
