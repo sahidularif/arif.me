@@ -1,0 +1,167 @@
+.footer-area {
+  background-color: #1d293a;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .language ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .language ul li {
+  position: relative;
+  background-color: #111a28;
+  margin-right: 15px;
+  padding: 3px 10px;
+  font-weight: 900;
+  border-radius: 4px;
+}
+
+.footer .language ul li p {
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.footer .language ul li .progress {
+  position: absolute;
+  content: "";
+  left: 0;
+  background-color: #00cf5d;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 4px;
+}
+
+.footer .copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer .copyright .github {
+  display: flex;
+  margin-right: 15px;
+}
+
+.footer .copyright .github li {
+  margin-left: 5px;
+}
+
+.footer .copyright .github li a {
+  text-decoration: none;
+}
+
+.footer .copyright .github li a p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.footer .copyright p {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.footer .copyright p span {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+  background-color: #00cf5d;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer > * {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .footer .language ul {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .footer .language ul li {
+    margin-bottom: 15px;
+  }
+}
+
+.menubar {
+  display: flex;
+  align-items: center;
+}
+
+.menubar li {
+  margin: 0 15px;
+}
+
+.menubar li:last-child {
+  margin-right: 0;
+}
+
+.menubar li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.menubar li a.btn-download {
+  display: inline-block;
+  border: solid 2px #00cf5d;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.mobile-nav {
+  position: absolute;
+  background: #00cf5d;
+  right: 0;
+  top: 8px;
+  padding: 10px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #111a28;
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mobile-nav {
+    display: initial;
+  }
+
+  .menubar {
+    flex-direction: column;
+    background-color: #1d293a;
+    align-items: flex-start;
+    width: 100%;
+    padding: 25px;
+    border-radius: 4px;
+    display: none;
+  }
+
+  .menubar.mobilenav-activate {
+    display: initial;
+  }
+
+  .menubar > * {
+    flex: 1 1 100%;
+  }
+
+  .menubar li {
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+}
